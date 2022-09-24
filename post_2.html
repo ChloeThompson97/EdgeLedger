@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+        <link rel="shortcut icon" type="image/x-icon" href="/imgs/image_resources/favicon-16x16.png">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Gap between earnings, expectations and economic reality narrows</title>
+</head>
+
+
+<body id="home">
+    <header class="hero blog">
+        <div class="navbar top" id="navbar">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#cases">Cases</a></li>
+                    <li><a href="index.html#blog">Our Insights</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="content">
+            <h1>Our Insights</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="post">
+            <a href="blog.html" class="btn blog-btn btn-dark">Back To Our Insights</a>
+            <h2>Gap between earnings, expectations and economic reality narrows</h2>
+            <p class="meta">
+                <i class="fas fas-user"></i> Posted by <strong>Natalie Ashburn</strong> | August 12 2022
+            </p>
+            <img src="../imgs/image_resources/blog/blog2.jpg" alt="">
+            <p>There appears to be a gap between earnings expectations and economic reality. Investors’ concerns over
+                record inflation levels earlier in 2022 have been compounded by supply problems and China’s Covid
+                policies, as well as commodity prices driven by post-pandemic demand and the Ukraine war. To these fears
+                are now added the risk of a recession as central banks try to slow economies with higher borrowing
+                costs.</p>
+            <p>Faced with four-decade high inflation, the Federal Reserve is increasing interest rates to slow demand
+                and consumers are more pessimistic than at any time since 2014, according to recent polls. By one
+                conventional measure, the American economy is already in recession: the country contracted for two
+                consecutive quarters in the first half of 2022. Economic nervousness about how industrial and consumer
+                demand will hold up is compounding geopolitical tensions, including the Ukraine war and its impacts on
+                food supplies and energy markets, as well as Western tensions with China.</p>
+            <p>Against this background, it is perhaps unsurprising that the S&P500 index has posted its worst first-six
+                month performance in more than half a century, falling more than 13% year-to-date following a recovery
+                since mid-June. Other US markets such as the Dow Jones Industrial Average and the technology-dominated
+                Nasdaq have fallen between 10% and 20% respectively over the same period.</p>
+            <p>This performance reflects the fears of investors faced with a catalogue of uncertainties rather than
+                corporate results, which remain largely positive. Results have been supported by strong demand and – in
+                some cases such as energy and select materials sectors – high commodity prices. With around 80% of the
+                S&P500 already posting second-quarter results, nearly three-quarters of reporting companies have beaten
+                earnings per share (EPS) growth estimates, although by narrower margins than during the first quarter.
+                Earnings growth is around 10% higher than the second quarter of 2021 in the US, and more than 20% higher
+                compared with a year earlier in European markets.</p>
+            <h4>Still-positive forecasts</h4>
+            <p>However, much of this is thanks to the energy sector. Excluding energy stocks, EPS growth in the US is
+                negative over 12 months and just 6% higher in Europe. Looking ahead, EPS estimates for the rest of 2022
+                and especially into 2023 have declined since the start of June. However, they remain higher than their
+                levels at the beginning of 2022. Despite a widely anticipated US recession, forecasts still also point
+                to positive EPS growth in 2023.</p>
+            <p>How long will markets reflect economic fears rather than corporate realities? By looking at the time it
+                has taken markets to reach a trough over the past six decades, we find that there were 15 periods in
+                which the S&P500 fell more than 15%. Of these, eight were during recessions, with median declines from
+                peak to trough that lasted 14 months and a 35% decline on average. Outside recessions, peak-to-trough
+                was twice as fast, with a median drawdown of 19.4%.</p>
+            <p>Earnings, which have already begun to adjust, therefore have some room to fall further. At the moment,
+                corporate expectations appear consistent with a mild and manageable recession for most industries that
+                are adapting to the current supply and cost challenges. Demand appears to remain resilient for now as
+                households still have some savings after the pandemic, and many stresses are already factored into
+                outlooks. Further, corporate margins still appear healthy with consensus forecasts pointing to
+                improvements in 2023 as companies have so far managed to pass on their rising capital costs. That may
+                change as higher labour costs begin to undermine corporate margins, but after an exceptionally difficult
+                first half of 2022, investors are also becoming more confident in firms’ valuations and managements’
+                outlooks.</p>
+            <p>Of course, much of this is distorted by the energy crisis and may yet worsen. While many energy-intensive
+                industries, such as automakers, have coped with increases to their energy production costs, the worst,
+                including possible restrictions or rationing, may lie ahead as winter approaches in the northern
+                hemisphere with low gas reserves and high oil prices.</p>
+        </section>
+    </main>
+
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2020 - EdgeLedger</p>
+    </footer>
+
+
+    <script>
+        const navbar = document.getElementById('navbar');
+        let scrolled = false;
+
+        window.onscroll = function () {
+            if (window.pageYOffset > 100) {
+                navbar.classList.remove('top');
+                if (!scrolled) {
+                    navbar.style.transform = 'translateY(-70px)';
+                }
+                setTimeout(function () {
+                    navbar.style.transform = 'translateY(0)';
+                    scrolled = true;
+                }, 200);
+            } else {
+                navbar.classList.add('top');
+                scrolled = false;
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
